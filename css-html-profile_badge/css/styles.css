@@ -1,0 +1,67 @@
+body {
+/* background-color: rgb(124, 140, 23); */
+background-image: url("../images/pexels-igor-meghega-15585594.jpg");
+background-position: center;
+ /* background-repeat: repeat;  */
+background-size: cover;
+text-align: center;
+margin-top: 370px;
+/* margin: auto; */
+opacity: 0.85;
+
+}
+
+.badge {
+  width: 260px;
+  /* height: 500px; */
+  background-color: rgb(255, 255, 255);
+  opacity: 0.75;
+  margin: 100px auto;
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(188, 178, 178);
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: rgba(50,50,93,0.25)0 2px 5px -1px, rgba(0,0,0, 0.3) 0 1px 3px -1;
+
+}
+
+.badge #email {
+  color:rbg(40, 39 , 39)
+
+}
+
+img{width: 200px;
+background-image: linear-gradient( to bottom left, red, gold, green);
+height: 200px;
+border: 1px black solid;
+border-radius: 50%;
+
+
+}
+
+#button {
+  background: #090a01;
+  color: #d9dbd5;
+  border: 2px solid #ffa260;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: all 0.35;
+  /* transition: color 0.35s, border-color 0.35; we can also do induvidual attributes*/
+}
+
+#button:hover {
+  background: white;
+  border-color: #f1ff5c;
+  color: green;
+  box-shadow: 0 0.5en 0.5em -0.42m #f1ff5c;
+  transform: translateY(0.95em);
+  cursor: pointer;
+}
+
+button a {
+  color: #ffa260;
+  margin: 1px;
+  text-decoration: none;
+  border-radius: 30%;
+}

@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* **** always use the height attribute with the align items */
+  height: 100vh;
+}
+
+
+
+div {
+  width: 500px;
+  height: 500px;
+  background-color: orange;
+  /* transform: skewY(4deg) */
+ animation: 5s scaleY infinite ; 
+
+}
+
+/* using transform for animation */
+@keyframes scaleY {
+  0% {
+    transform: scaleY(1)
+  }
+  50% {
+    transform: scaleY(2);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}

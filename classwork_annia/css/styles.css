@@ -1,0 +1,47 @@
+body {
+background-color: blue;
+}
+
+h1{
+  text-align: center;
+color: green;
+/* color refers to text only */
+}
+
+p {
+  text-decoration: underline;
+  text-align: center;
+color: white;
+}
+
+.info {
+  color: blueviolet;
+}
+
+.main {
+  color: yellow;
+  font-size: 10px;
+}
+
+#submit-button {
+  color: red;
+  /* font-size: 10px; */
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+a:visited {
+  color: coral;
+}
+
+a:hover {
+color:purple;
+}
+
+a:active {
+  color: blue;
+  }
